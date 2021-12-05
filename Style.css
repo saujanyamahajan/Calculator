@@ -9,12 +9,12 @@ html {
 	width: 100vw;
 	overflow: hidden;
 	font-family: "Poppins", sans-serif;
-	font-size: 25px;
+	font-size: 150%;
 }
 
 body {
 	height: 100%;
-	background-image: url(./image/calci.jpg);
+	background-image: url(./image/bg.jpg);
 	background-size: cover;
 	background-position: center center;
 	display: flex;
@@ -26,10 +26,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	padding: 1em;
-	border-radius: 0.62rem;
+	border-radius: 0.5rem;
 	backdrop-filter: blur(1em);
-	box-shadow: 0rem 0rem 1.875rem rgba(0, 0, 0, 0.15);
-	border: 0.125rem solid rgba(255, 255, 255, 0.671);
+	box-shadow: 0rem 0rem 30px rgba(0, 0, 0, 0.15);
+	border: 2px solid rgba(255, 255, 255, 0.671);
 }
 
 .output-container {
@@ -39,18 +39,18 @@ body {
 
 .display-container {
 	background: rgba(255, 255, 255, 0.671);
-	border-radius: 5px;
-	margin-bottom: 1em;
+	border-radius: 5rem;
+	margin-bottom: 1rem;
 	color: #000000;
-	box-shadow: inset -1px -1px 3px rgba(255, 255, 255, 0.7),
-		inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: inset -1rem -1rem 3rem rgba(255, 255, 255, 0.7),
+		inset 1rem 1rem 3rem rgba(0, 0, 0, 0.2);
 }
 
 .current-calc,
 .operator-type {
 	font-size: 0.8rem;
 	color: rgba(0, 0, 0, 0.4);
-	height: 1.4em;
+	height: 1.4rem;
 	padding: 0 0.3rem;
 	display: block;
 }
@@ -77,19 +77,19 @@ body {
 		"four five six equal"
 		"one two three equal"
 		"decimal zero clear equal";
-	gap: 0.5em;
+	gap: 0.5rem;
 }
 
 button {
 	font-size: 1rem;
-	padding: 1em;
+	padding: 1rem;
 	background: rgba(255, 255, 255, 0.521);
 	color: #000000;
 	border: none;
-	border-radius: 2em;
+	border-radius: 2rem;
 	cursor: pointer;
-	box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.8),
-		1px 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: -1rem -1rem 3rem rgba(255, 255, 255, 0.8),
+		1rem 1rem 3rem rgba(0, 0, 0, 0.1);
 }
 button:hover,
 button:focus {
